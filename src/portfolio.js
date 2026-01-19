@@ -125,17 +125,17 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
-    // {
-    //   schoolName: "Harvard University",
-    //   logo: require("./assets/images/harvardLogo.png"),
-    //   subHeader: "Master of Science in Computer Science",
-    //   duration: "September 2017 - April 2019",
-    //   desc: "Participated in the research of XXX and published 3 papers.",
-    //   descBullets: [
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-    //   ]
-    // },
+    {
+      schoolName: "Gurukul International Public School",
+      logo: require("./assets/images/harvardLogo.png"),
+      subHeader: "Master of Science in Computer Science",
+      duration: "September 2021 - April 2023",
+      desc: "Participated in the research of XXX and published 3 papers.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    },
     {
       schoolName: "Berhampur University",
       logo: require("./assets/images/stanfordLogo.png"),
@@ -172,33 +172,33 @@ const techStack = {
 
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
-  // experience: [
-  //   {
-  //     role: "Software Engineer",
-  //     company: "Facebook",
-  //     companylogo: require("./assets/images/facebookLogo.png"),
-  //     date: "June 2018 – Present",
-  //     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  //     descBullets: [
-  //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-  //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-  //     ]
-  //   },
-  //   {
-  //     role: "Front-End Developer",
-  //     company: "Quora",
-  //     companylogo: require("./assets/images/quoraLogo.png"),
-  //     date: "May 2017 – May 2018",
-  //     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  //   },
-  //   {
-  //     role: "Software Engineer Intern",
-  //     company: "Airbnb",
-  //     companylogo: require("./assets/images/airbnbLogo.png"),
-  //     date: "Jan 2015 – Sep 2015",
-  //     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  //   }
-  // ]
+  experience: [
+    {
+      role: "Software Engineer",
+      company: "Facebook",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "June 2018 – Present",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    },
+    {
+      role: "Front-End Developer",
+      company: "Quora",
+      companylogo: require("./assets/images/quoraLogo.png"),
+      date: "May 2017 – May 2018",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      role: "Software Engineer Intern",
+      company: "Airbnb",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "Jan 2015 – Sep 2015",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  ]
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -211,97 +211,97 @@ const openSource = {
 
 // Some big projects you have worked on
 
-// const bigProjects = {
-//   title: "Big Projects",
-//   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-//   projects: [
-//     {
-//       image: require("./assets/images/saayaHealthLogo.webp"),
-//       projectName: "Saayahealth",
-//       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-//       footerLink: [
-//         {
-//           name: "Visit Website",
-//           url: "http://saayahealth.com/"
-//         }
-//         //  you can add extra buttons here.
-//       ]
-//     },
-//     {
-//       image: require("./assets/images/nextuLogo.webp"),
-//       projectName: "Nextu",
-//       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-//       footerLink: [
-//         {
-//           name: "Visit Website",
-//           url: "http://nextu.se/"
-//         }
-//       ]
-//     }
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
+const bigProjects = {
+  title: "Big Projects",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  projects: [
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Nextu",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
 
 // Achievement Section
 // Include certificates, talks etc
 
-// const achievementSection = {
-//   title: emoji("Achievements And Certifications 🏆 "),
-//   subtitle:
-//     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+const achievementSection = {
+  title: emoji("Achievements And Certifications 🏆 "),
+  subtitle:
+    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
-//   achievementsCards: [
-//     {
-//       title: "Google Code-In Finalist",
-//       subtitle:
-//         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-//       image: require("./assets/images/codeInLogo.webp"),
-//       imageAlt: "Google Code-In Logo",
-//       footerLink: [
-//         {
-//           name: "Certification",
-//           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-//         },
-//         {
-//           name: "Award Letter",
-//           url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-//         },
-//         {
-//           name: "Google Code-in Blog",
-//           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-//         }
-//       ]
-//     },
-//     {
-//       title: "Google Assistant Action",
-//       subtitle:
-//         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-//       image: require("./assets/images/googleAssistantLogo.webp"),
-//       imageAlt: "Google Assistant Action Logo",
-//       footerLink: [
-//         {
-//           name: "View Google Assistant Action",
-//           url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-//         }
-//       ]
-//     },
+  achievementsCards: [
+    {
+      title: "Google Code-In Finalist",
+      subtitle:
+        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        },
+        {
+          name: "Award Letter",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        },
+        {
+          name: "Google Code-in Blog",
+          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        }
+      ]
+    },
+    {
+      title: "Google Assistant Action",
+      subtitle:
+        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      image: require("./assets/images/googleAssistantLogo.webp"),
+      imageAlt: "Google Assistant Action Logo",
+      footerLink: [
+        {
+          name: "View Google Assistant Action",
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        }
+      ]
+    },
 
-//     {
-//       title: "PWA Web App Developer",
-//       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-//       image: require("./assets/images/pwaLogo.webp"),
-//       imageAlt: "PWA Logo",
-//       footerLink: [
-//         {name: "Certification", url: ""},
-//         {
-//           name: "Final Project",
-//           url: "https://pakistan-olx-1.firebaseapp.com/"
-//         }
-//       ]
-//     }
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
+    {
+      title: "PWA Web App Developer",
+      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      image: require("./assets/images/pwaLogo.webp"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "Certification", url: ""},
+        {
+          name: "Final Project",
+          url: "https://pakistan-olx-1.firebaseapp.com/"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
 
 // Blogs Section
 
@@ -329,35 +329,35 @@ const blogSection = {
 
 // Talks Sections
 
-// const talkSection = {
-//   title: "TALKS",
-//   subtitle: emoji(
-//     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-//   ),
+const talkSection = {
+  title: "TALKS",
+  subtitle: emoji(
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+  ),
 
-//   talks: [
-//     {
-//       title: "Build Actions For Google Assistant",
-//       subtitle: "Codelab at GDG DevFest Karachi 2019",
-//       slides_url: "https://bit.ly/saadpasta-slides",
-//       event_url: "https://www.facebook.com/events/2339906106275053/"
-//     }
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
+  talks: [
+    {
+      title: "Build Actions For Google Assistant",
+      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      slides_url: "https://bit.ly/saadpasta-slides",
+      event_url: "https://www.facebook.com/events/2339906106275053/"
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
 
 // Podcast Section
 
-// const podcastSection = {
-//   title: emoji("Podcast 🎙️"),
-//   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+const podcastSection = {
+  title: emoji("Podcast 🎙️"),
+  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-//   // Please Provide with Your Podcast embeded Link
-//   podcast: [
-//     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
+  // Please Provide with Your Podcast embeded Link
+  podcast: [
+    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
 
 // Resume Section
 const resumeSection = {
@@ -378,10 +378,10 @@ const contactInfo = {
 
 // Twitter Section
 
-// const twitterDetails = {
-//   userName: "twitter", //Replace "twitter" with your twitter username without @
-//   display: true // Set true to display this section, defaults to false
-// };
+const twitterDetails = {
+  userName: "twitter", //Replace "twitter" with your twitter username without @
+  display: true // Set true to display this section, defaults to false
+};
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
